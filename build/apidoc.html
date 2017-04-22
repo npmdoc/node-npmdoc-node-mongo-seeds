@@ -1,0 +1,123 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+    >node-mongo-seeds (v2.3.1)</a>
+</h1>
+<h4>A tool to populate a mongo db from json files</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.node-mongo-seeds">module node-mongo-seeds</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">node-mongo-seeds.</span>setup</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.node-mongo-seeds.setup">module node-mongo-seeds.setup</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.node-mongo-seeds.setup.setup">
+            function <span class="apidocSignatureSpan">node-mongo-seeds.</span>setup
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.node-mongo-seeds" id="apidoc.module.node-mongo-seeds">module node-mongo-seeds</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.node-mongo-seeds.setup" id="apidoc.module.node-mongo-seeds.setup">module node-mongo-seeds.setup</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.node-mongo-seeds.setup.setup" id="apidoc.element.node-mongo-seeds.setup.setup">
+        function <span class="apidocSignatureSpan">node-mongo-seeds.</span>setup
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">setup = function () {
+
+  // Create .seed file in the same directory where the user ran npm install from
+  fs.writeFile(process.cwd() + &#x27;/seed.json&#x27;, contents, function (err) {
+    if (err) {
+      console.log(err);
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
